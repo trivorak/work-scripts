@@ -7,6 +7,7 @@ if v>.157:
     a = round(v-.157,4)
     v = str(round(v,4))
     a = str(a)
+    print()
     print(v + ' Actual')
     print(a + ' OMT')
     print()
@@ -16,6 +17,7 @@ elif v<.147:
     a = round(.147-v,v)
     v = str(round(v,4))
     a = str(a)
+    print()
     print(v + ' Actual')
     print(a + ' UMT')
     print()
@@ -23,9 +25,10 @@ elif v<.147:
     print()
 else:
     v= str(round(v,4))
+    print()
     print(v + ' Actual')
     print()
     print('Part is Good')
     print()
     
-x = input('Press Enter to Exit, confusing I know')
+x = input('Press Any Key to Exit!')
