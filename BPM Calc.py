@@ -1,0 +1,5 @@
+time = float(input("Enter Loop Time: "))
+beat = float(input("Enter Number of Beats: "))
+bpm = round(float(60 / (time / beat)),0)
+print(bpm)
+quithit = input("Press Any Key To Exit")
