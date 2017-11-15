@@ -1,0 +1,2 @@
+NETSH WLAN start hostednetwork
+
